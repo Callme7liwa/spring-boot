@@ -1,0 +1,12 @@
+GET http://localhost:9090/api/v1/public/getHelloWorld
+Accept: application/json
+
+###
+POST http://localhost:9090/api/v1/public/login
+Content-Type: application/json
+
+{
+  "username": "JohnDoe",
+  "email": "john.doe@example.com"
+
+}
